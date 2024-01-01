@@ -24,6 +24,12 @@ function Foreground() {
             close: true,
             tag: { isOpen: true, tagTile: "Download Now", tagColor: "Green" },
         },
+        {
+            desc: " loreOfficia nisi ea deserunt incididunt ut proident fugiat nisi.",
+            filesize: ".9mb",
+            close: false,
+            tag: { isOpen: true, tagTile: "Download Now", tagColor: "Blue" },
+        },
     ];
   return (
     <>
