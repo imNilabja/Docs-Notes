@@ -7,14 +7,14 @@ function Foreground() {
     const data = [
         
         {
-            desc: " loreOfficia nisi ea deserunt incididunt ut proident fugiat nisi.",
-            filesize: ".9mb",
+            desc: " Hi my name is Nilabja.",
+            filesize: "21MB",
             close: true,
             tag: { isOpen: true, tagTile: "Download Now", tagColor: "blue" },
         },
         {
-            desc: " loreOfficia nisi ea deserunt incididunt ut proident fugiat nisi.",
-            filesize: ".9mb",
+            desc: "This app is made with React.js.",
+            filesize: "9mb",
             close: true,
             tag: { isOpen: true, tagTile: "Download Now", tagColor: "Green" },
         },
@@ -25,7 +25,7 @@ function Foreground() {
             tag: { isOpen: true, tagTile: "Download Now", tagColor: "Green" },
         },
         {
-            desc: " loreOfficia nisi ea deserunt incididunt ut proident fugiat nisi.",
+            desc: " Date-1/1/2024.",
             filesize: ".9mb",
             close: false,
             tag: { isOpen: true, tagTile: "Download Now", tagColor: "Blue" },
