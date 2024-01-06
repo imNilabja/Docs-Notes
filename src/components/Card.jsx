@@ -13,7 +13,9 @@ function Card({ data, reference }) {
         <motion.div drag dragConstraints={reference} whileDrag={{ scale: 1.1 }} dragTransition={{ bounceStiffness: 100, bounceDamping: 1 }} className='card flex-shrink-0 relative w-[190px] h-[250px] rounded-[30px] bg-zinc-900/90 text-white p-5 overflow-hidden '>
             <FaRegFileAlt />
             <p className='text-sm mt-5 font-semibold leading-tight'>
-                {data.desc}
+                <form>
+                    <input type='text' className='text-white w-40 h-5 py-2 px-4 mr-7 bg-zinc-900/90 border-yellow-50 border-solid relative right-1'></input>
+                </form>
             </p>
 
             <div className='footer absolute bottom-0 w-full left-0 '>
